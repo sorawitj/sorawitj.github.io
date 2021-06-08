@@ -14,5 +14,5 @@ My research interest lies in the intersection between Causality, Machine Learnin
 
 News
 ======
-- Our paper entitled ["Counterfactual Mean Embeddings"](https://arxiv.org/abs/1805.08845) has finally been accepted to JMLR :partying_face:
+- Our paper entitled ["Counterfactual Mean Embeddings"](https://arxiv.org/abs/1805.08845) has finally been accepted to JMLR.
 - Two new preprints ["Invariant Policy Learning: A Causal Perspective"](https://arxiv.org/abs/2106.00808), ["Statistical Testing under Distributional Shifts"](https://arxiv.org/abs/2105.10821) are out.

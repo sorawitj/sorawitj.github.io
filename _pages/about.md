@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Statistics at Copenhagen Causality Lab, University of Copenhagen, where I am co-supervised by Jonas Peters and Niklas Pfister. I completed my master’s degree in Machine Learning at University College London in 2019, during which I worked with Ricardo Silva. Prior to the master’s study, I worked as a data scientist at Agoda for four years. I received my bachelor’s degree in Statistics from Chulalongkorn University in 2014.
+I am a PhD student in Statistics at [Copenhagen Causality Lab](https://www.math.ku.dk/english/research/spt/cocala/), University of Copenhagen, where I am co-supervised by [Jonas Peters](http://web.math.ku.dk/~peters/) and [Niklas Pfister](https://niklaspfister.github.io/). I completed my master’s degree in Machine Learning at [University College London](https://www.ucl.ac.uk/) in 2019, during which I worked with [Ricardo Silva](http://www.homepages.ucl.ac.uk/~ucgtrbd/). Prior to the master’s study, I worked as a data scientist at [Agoda](https://www.agoda.com/) for four years. I received my bachelor’s degree in Statistics from [Chulalongkorn University](https://www.chula.ac.th/en/) in 2014.
 
 My research interest lies in the intersection between Causality, Machine Learning and Sequential Decision-Making.
 

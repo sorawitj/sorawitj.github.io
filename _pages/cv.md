@@ -12,8 +12,11 @@ redirect_from:
 Education
 ======
 * B.S. in Statistics, Chulalongkorn University, 2014
+  * Supervisor: Seksan Kiatsupaibul
 * M.S. in Machine Learning, University Colledge London, 2019
+  * Supervisor: Ricardo Silva
 * Ph.D in Statistics, University of Copenhagen, 2023 (expected)
+  * Supervisors: Jonas Peters, Niklas Pfister 
 
 Work experience
 ======

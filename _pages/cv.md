@@ -17,9 +17,7 @@ Education
 
 Work experience
 ======
-* Summer 2020: Machine Learning Researcher
-  * Frontier Development Lab (FDL) Europe
+* Summer 2020: Machine Learning Researcher at Frontier Development Lab (FDL) Europe
   * Supervisor: Matt Kusner
 
-* 2014-2018: Data Scientist
-  * Agoda
+* 2014-2018: Data Scientist at Agoda

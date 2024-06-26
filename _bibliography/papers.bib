@@ -23,39 +23,14 @@
   selected={true}
 }
 
-@article{saengkyongam2019efficient,
-  abbr={CompStat},
-  title={Efficient computation of the stochastic behavior of partial sum processes},
-  abstract={In this paper the computational aspects of probability calculations for dynamical partial sum expressions are discussed. Such dynamical partial sum expressions have many important applications, and examples are provided in the fields of reliability, product quality assessment, and stochastic control. While these probability calculations are ostensibly of a high dimension, and consequently intractable in general, it is shown how a recursive integration methodology can be implemented to obtain exact calculations as a series of two-dimensional calculations. The computational aspects of the implementation of this methodology, with the adoption of Fast Fourier Transforms, are discussed.},
-  author={Saengkyongam, Sorawit and Hayter, Anthony and Kiatsupaibul, Seksan and Liu, Wei},
-  journal={Computational Statistics},
-  year={2019},
-  pdf={https://link.springer.com/article/10.1007/s00180-019-00920-z},
-  publisher={Springer},
-  selected={true}
-}
-
-@inproceedings{saengkyongam2020learning,
-  abbr={UAI},
-  title={Learning joint nonlinear effects from single-variable interventions in the presence of hidden confounders},
-  author={Saengkyongam, Sorawit and Silva, Ricardo},
-  abstract={We propose an approach to estimate the effect of multiple simultaneous interventions in the presence of hidden confounders. To overcome the problem of hidden confounding, we consider the setting where we have access to not only the observational data but also sets of single-variable interventions in which each of the treatment variables is intervened on separately. We prove identifiability under the assumption that the data is generated from a nonlinear continuous structural causal model with additive Gaussian noise. In addition, we propose a simple parameter estimation method by pooling all the data from different regimes and jointly maximizing the combined likelihood. We also conduct comprehensive experiments to verify the identifiability result as well as to compare the performance of our approach against a baseline on both synthetic and real-world data.},
-  booktitle={Conference on Uncertainty in Artificial Intelligence},
-  year={2020},
-  pdf={https://proceedings.mlr.press/v124/saengkyongam20a.html},
-  organization={PMLR},
-  selected={true}
-}
-
-@inproceedings{saengkyongam2022exploiting,
-  abbr={ICML},
-  title={Exploiting independent instruments: Identification and distribution generalization},
-  author={Saengkyongam, Sorawit and Henckel, Leonard and Pfister, Niklas and Peters, Jonas},
-  abstract={Instrumental variable models allow us to identify a causal function between covariates X and a response Y, even in the presence of unobserved confounding. Most of the existing estimators assume that the error term in the response Y and the hidden confounders are uncorrelated with the instruments Z. This is often motivated by a graphical separation, an argument that also justifies independence. Positing an independence restriction, however, leads to strictly stronger identifiability results. We connect to the existing literature in econometrics and provide a practical method called HSIC-X for exploiting independence that can be combined with any gradient-based learning procedure. We see that even in identifiable settings, taking into account higher moments may yield better finite sample results. Furthermore, we exploit the independence for distribution generalization. We prove that the proposed estimator is invariant to distributional shifts on the instruments and worst-case optimal whenever these shifts are sufficiently strong. These results hold even in the under-identified case where the instruments are not sufficiently rich to identify the causal function.},
-  booktitle={International Conference on Machine Learning},
-  pdf={https://proceedings.mlr.press/v162/saengkyongam22a},
-  year={2022},
-  organization={PMLR},
+@article{kook2023model,
+  abbr={arXiv preprint},
+  abstract={Discovering causal relationships from observational data is a fundamental yet challenging task. Invariant causal prediction (ICP, Peters et al., 2016) is a method for causal feature selection which requires data from heterogeneous settings and exploits that causal models are invariant. ICP has been extended to general additive noise models and to nonparametric settings using conditional independence tests. However, the latter often suffer from low power (or poor type I error control) and additive noise models are not suitable for applications in which the response is not measured on a continuous scale, but reflects categories or counts. Here, we develop transformation-model (TRAM) based ICP, allowing for continuous, categorical, count-type, and uninformatively censored responses (these model classes, generally, do not allow for identifiability when there is no exogenous heterogeneity). As an invariance test, we propose TRAM-GCM based on the expected conditional covariance between environments and score residuals with uniform asymptotic level guarantees. For the special case of linear shift TRAMs, we also consider TRAM-Wald, which tests invariance based on the Wald statistic. We provide an open-source R package 'tramicp' and evaluate our approach on simulated data and in a case study investigating causal features of survival in critically ill patients.},
+  title={Model-based causal feature selection for general response types},
+  author={Kook, Lucas and Saengkyongam, Sorawit and Lundborg, Anton Rask and Hothorn, Torsten and Peters, Jonas},
+  journal={arXiv preprint arXiv:2309.12833},
+  pdf={https://arxiv.org/abs/2309.12833},
+  year={2023},
   selected={true}
 }
 
@@ -71,17 +46,6 @@
   selected={true}
 }
 
-@article{muandet2021counterfactual,
-  abbr={JMLR},
-  abstract={Counterfactual inference has become a ubiquitous tool in online advertisement, recommendation systems, medical diagnosis, and econometrics. Accurate modelling of outcome distributions associated with different interventions---known as counterfactual distributions---is crucial for the success of these applications. In this work, we propose to model counterfactual distributions using a novel Hilbert space representation called counterfactual mean embedding (CME). The CME embeds the associated counterfactual distribution into a reproducing kernel Hilbert space (RKHS) endowed with a positive definite kernel, which allows us to perform causal inference over the entire landscape of the counterfactual distribution. Based on this representation, we propose a distributional treatment effect (DTE) which can quantify the causal effect over entire outcome distributions. Our approach is nonparametric as the CME can be estimated under the unconfoundedness assumption from observational data without requiring any parametric assumption about the underlying distributions. We also establish a rate of convergence of the proposed estimator which depends on the smoothness of the conditional mean and the Radon-Nikodym derivative of the underlying marginal distributions. Furthermore, our framework allows for more complex outcomes such as images, sequences, and graphs. Our experimental results on synthetic data and off-policy evaluation tasks demonstrate the advantages of the proposed estimator.},
-  title={Counterfactual mean embeddings},
-  author={Muandet, Krikamol and Kanagawa, Motonobu and Saengkyongam, Sorawit and Marukatat, Sanparith},
-  journal={Journal of Machine Learning Research},
-  pdf={https://jmlr.csail.mit.edu/papers/v22/20-185.html},
-  year={2021},
-  selected={true}
-}
-
 @article{thams2023statistical,
   abbr={JRSS-B},
   title={Statistical testing under distributional shifts},
@@ -94,13 +58,49 @@
   selected={true}
 }
 
-@article{kook2023model,
-  abbr={arXiv preprint},
-  abstract={Discovering causal relationships from observational data is a fundamental yet challenging task. Invariant causal prediction (ICP, Peters et al., 2016) is a method for causal feature selection which requires data from heterogeneous settings and exploits that causal models are invariant. ICP has been extended to general additive noise models and to nonparametric settings using conditional independence tests. However, the latter often suffer from low power (or poor type I error control) and additive noise models are not suitable for applications in which the response is not measured on a continuous scale, but reflects categories or counts. Here, we develop transformation-model (TRAM) based ICP, allowing for continuous, categorical, count-type, and uninformatively censored responses (these model classes, generally, do not allow for identifiability when there is no exogenous heterogeneity). As an invariance test, we propose TRAM-GCM based on the expected conditional covariance between environments and score residuals with uniform asymptotic level guarantees. For the special case of linear shift TRAMs, we also consider TRAM-Wald, which tests invariance based on the Wald statistic. We provide an open-source R package 'tramicp' and evaluate our approach on simulated data and in a case study investigating causal features of survival in critically ill patients.},
-  title={Model-based causal feature selection for general response types},
-  author={Kook, Lucas and Saengkyongam, Sorawit and Lundborg, Anton Rask and Hothorn, Torsten and Peters, Jonas},
-  journal={arXiv preprint arXiv:2309.12833},
-  pdf={https://arxiv.org/abs/2309.12833},
-  year={2023},
+@inproceedings{saengkyongam2022exploiting,
+  abbr={ICML},
+  title={Exploiting independent instruments: Identification and distribution generalization},
+  author={Saengkyongam, Sorawit and Henckel, Leonard and Pfister, Niklas and Peters, Jonas},
+  abstract={Instrumental variable models allow us to identify a causal function between covariates X and a response Y, even in the presence of unobserved confounding. Most of the existing estimators assume that the error term in the response Y and the hidden confounders are uncorrelated with the instruments Z. This is often motivated by a graphical separation, an argument that also justifies independence. Positing an independence restriction, however, leads to strictly stronger identifiability results. We connect to the existing literature in econometrics and provide a practical method called HSIC-X for exploiting independence that can be combined with any gradient-based learning procedure. We see that even in identifiable settings, taking into account higher moments may yield better finite sample results. Furthermore, we exploit the independence for distribution generalization. We prove that the proposed estimator is invariant to distributional shifts on the instruments and worst-case optimal whenever these shifts are sufficiently strong. These results hold even in the under-identified case where the instruments are not sufficiently rich to identify the causal function.},
+  booktitle={International Conference on Machine Learning},
+  pdf={https://proceedings.mlr.press/v162/saengkyongam22a},
+  year={2022},
+  organization={PMLR},
+  selected={true}
+}
+
+@article{muandet2021counterfactual,
+  abbr={JMLR},
+  abstract={Counterfactual inference has become a ubiquitous tool in online advertisement, recommendation systems, medical diagnosis, and econometrics. Accurate modelling of outcome distributions associated with different interventions---known as counterfactual distributions---is crucial for the success of these applications. In this work, we propose to model counterfactual distributions using a novel Hilbert space representation called counterfactual mean embedding (CME). The CME embeds the associated counterfactual distribution into a reproducing kernel Hilbert space (RKHS) endowed with a positive definite kernel, which allows us to perform causal inference over the entire landscape of the counterfactual distribution. Based on this representation, we propose a distributional treatment effect (DTE) which can quantify the causal effect over entire outcome distributions. Our approach is nonparametric as the CME can be estimated under the unconfoundedness assumption from observational data without requiring any parametric assumption about the underlying distributions. We also establish a rate of convergence of the proposed estimator which depends on the smoothness of the conditional mean and the Radon-Nikodym derivative of the underlying marginal distributions. Furthermore, our framework allows for more complex outcomes such as images, sequences, and graphs. Our experimental results on synthetic data and off-policy evaluation tasks demonstrate the advantages of the proposed estimator.},
+  title={Counterfactual mean embeddings},
+  author={Muandet, Krikamol and Kanagawa, Motonobu and Saengkyongam, Sorawit and Marukatat, Sanparith},
+  journal={Journal of Machine Learning Research},
+  pdf={https://jmlr.csail.mit.edu/papers/v22/20-185.html},
+  year={2021},
+  selected={true}
+}
+
+@inproceedings{saengkyongam2020learning,
+  abbr={UAI},
+  title={Learning joint nonlinear effects from single-variable interventions in the presence of hidden confounders},
+  author={Saengkyongam, Sorawit and Silva, Ricardo},
+  abstract={We propose an approach to estimate the effect of multiple simultaneous interventions in the presence of hidden confounders. To overcome the problem of hidden confounding, we consider the setting where we have access to not only the observational data but also sets of single-variable interventions in which each of the treatment variables is intervened on separately. We prove identifiability under the assumption that the data is generated from a nonlinear continuous structural causal model with additive Gaussian noise. In addition, we propose a simple parameter estimation method by pooling all the data from different regimes and jointly maximizing the combined likelihood. We also conduct comprehensive experiments to verify the identifiability result as well as to compare the performance of our approach against a baseline on both synthetic and real-world data.},
+  booktitle={Conference on Uncertainty in Artificial Intelligence},
+  year={2020},
+  pdf={https://proceedings.mlr.press/v124/saengkyongam20a.html},
+  organization={PMLR},
+  selected={true}
+}
+
+@article{saengkyongam2019efficient,
+  abbr={CompStat},
+  title={Efficient computation of the stochastic behavior of partial sum processes},
+  abstract={In this paper the computational aspects of probability calculations for dynamical partial sum expressions are discussed. Such dynamical partial sum expressions have many important applications, and examples are provided in the fields of reliability, product quality assessment, and stochastic control. While these probability calculations are ostensibly of a high dimension, and consequently intractable in general, it is shown how a recursive integration methodology can be implemented to obtain exact calculations as a series of two-dimensional calculations. The computational aspects of the implementation of this methodology, with the adoption of Fast Fourier Transforms, are discussed.},
+  author={Saengkyongam, Sorawit and Hayter, Anthony and Kiatsupaibul, Seksan and Liu, Wei},
+  journal={Computational Statistics},
+  year={2019},
+  pdf={https://link.springer.com/article/10.1007/s00180-019-00920-z},
+  publisher={Springer},
   selected={true}
 }

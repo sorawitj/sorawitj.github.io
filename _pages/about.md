@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a last year PhD student in Statistics at [ETH Zürich, Seminar for Statistics](https://math.ethz.ch/sfs) supervised by [Jonas Peters](https://people.math.ethz.ch/~jopeters/). I am currently interning at Apple in the Health AI team working with [Christina Heinze-Deml](https://christinaheinze.github.io/).
+I'm a last year PhD student at [ETH Zürich, Seminar for Statistics](https://math.ethz.ch/sfs) supervised by [Jonas Peters](https://people.math.ethz.ch/~jopeters/). I'm currently interning at Apple in the Health AI team working with [Christina Heinze-Deml](https://christinaheinze.github.io/).
 
 During my PhD studies, I had the opportunity to spend time at Carnegie Mellon University's [Machine Learning Department](https://www.ml.cmu.edu/) and Harvard University's [Statistical Reinforcement Learning lab](http://people.seas.harvard.edu/~samurphy/lab/overview.html).
 

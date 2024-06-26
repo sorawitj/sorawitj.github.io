@@ -230,6 +230,7 @@ exclude:
   - _pages/repositories.md
   - _pages/publications.md
   - _pages/profiles.md
+  - _pages/projects.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md

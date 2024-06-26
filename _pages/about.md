@@ -8,7 +8,11 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  
+  more_info:
+
+news: false # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 ---
 
 I'm a last year PhD student in Statistics at ETH Zürich, Seminar for Statistics. Previously I was a PhD student at Copenhagen Causality Lab, University of Copenhagen. I'm co-supervised by Jonas Peters and Niklas Pfister. During my PhD I was fortunated to visit Pradeep Ravikumar at Carnegie Mellon University's Machine Learning Department and Susan Murphy at the Statistical Reinforcement Learning lab, Harvard University.

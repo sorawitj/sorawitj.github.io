@@ -2,20 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>ETH Zürich</a>.
+subtitle: <a href='#'>Doctoral Student at ETH Zürich</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+  more_info:
+  
 ---
 
 I'm a last year PhD student in Statistics at ETH Zürich, Seminar for Statistics. Previously I was a PhD student at Copenhagen Causality Lab, University of Copenhagen. I'm co-supervised by Jonas Peters and Niklas Pfister. During my PhD I was fortunated to visit Pradeep Ravikumar at Carnegie Mellon University's Machine Learning Department and Susan Murphy at the Statistical Reinforcement Learning lab, Harvard University.

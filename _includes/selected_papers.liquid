@@ -1,3 +1,11 @@
 <div class="publications">
-  {% bibliography %}
+
+<h1>Journal</h1>
+
+{% bibliography --query @*[selected=journal]* %}
+
+<h1>Conference</h1>
+
+{% bibliography --query @*[selected=conference]* %}
+
 </div>

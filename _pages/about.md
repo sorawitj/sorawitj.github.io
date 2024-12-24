@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Doctoral Student at ETH Zürich; Research Intern at Apple Health AI</a>.
+subtitle: <a href='#'>Doctoral Student at ETH Zürich</a>.
 
 profile:
   align: right
@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a last year PhD student at [ETH Zürich, Seminar for Statistics](https://math.ethz.ch/sfs) supervised by [Jonas Peters](https://people.math.ethz.ch/~jopeters/). I'm currently interning at Apple in the Health AI team working with [Christina Heinze-Deml](https://christinaheinze.github.io/).
+I'm a last year PhD student at [ETH Zürich, Seminar for Statistics](https://math.ethz.ch/sfs) supervised by [Jonas Peters](https://people.math.ethz.ch/~jopeters/).
 
 During my PhD studies, I spent some time at Apple in the Health AI team working with [Christina Heinze-Deml](https://christinaheinze.github.io/). I also spent my first two years at [Copenhagen Causality Lab](https://cocala.github.io/) and did a research visit with [Pradeep Ravikumar](https://www.cs.cmu.edu/~pradeepr/) at Carnegie Mellon University's [Machine Learning Department](https://www.ml.cmu.edu/) and with [Susan Murphy](http://people.seas.harvard.edu/~samurphy/) at the [Statistical Reinforcement Learning Lab](http://people.seas.harvard.edu/~samurphy/lab/overview.html), Harvard University.
 

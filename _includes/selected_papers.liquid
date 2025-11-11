@@ -1,11 +1,11 @@
 <div class="publications">
 
-<h1>Journal Articles</h1>
+<h1>Preprint</h1>
 
-{% bibliography --query @*[publisher=journal]* %}
+{% bibliography --query @*[publisher=preprint]* %}
 
-<h1>Conference Articles</h1>
+<h1>Publised Articles</h1>
 
-{% bibliography --query @*[publisher=conference]* %}
+{% bibliography --query @*[publisher!=preprint]* %}
 
 </div>

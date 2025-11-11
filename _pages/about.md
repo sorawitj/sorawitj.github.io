@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Research Scientist at Apple Zürich, where I develop machine learning solutions for health applications with a particular focus on causal inference and distributional shifts. I earned my PhD from the [ETH Zürich, Seminar for Statistics](https://math.ethz.ch/sfs) under the supervision of [Jonas Peters](https://people.math.ethz.ch/~jopeters/).
+I am a Research Scientist at Apple Zürich working on machine learning for health with a particular focus on causal inference and distributional shifts. I earned my PhD from the [ETH Zürich, Seminar for Statistics](https://math.ethz.ch/sfs) under the supervision of [Jonas Peters](https://people.math.ethz.ch/~jopeters/).
 
 During my PhD studies, I interned at Apple working with [Christina Heinze-Deml](https://christinaheinze.github.io/), spent my first two years at [Copenhagen Causality Lab](https://cocala.github.io/) and did research visits with [Pradeep Ravikumar](https://www.cs.cmu.edu/~pradeepr/) at Carnegie Mellon University's [Machine Learning Department](https://www.ml.cmu.edu/) and with [Susan Murphy](http://people.seas.harvard.edu/~samurphy/) at the [Statistical Reinforcement Learning Lab](http://people.seas.harvard.edu/~samurphy/lab/overview.html), Harvard University.
 

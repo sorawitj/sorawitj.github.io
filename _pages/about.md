@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Research Scientist at Apple</a>.
+subtitle: <a href='#'>Research Scientist at Apple</a>
 
 profile:
   align: right
